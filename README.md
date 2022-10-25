@@ -9,14 +9,16 @@ To check cluster health run:
 
 ```
 etcdctl --cacert /etc/etcd/ssl/ca.crt endpoint health --cluster
+```
 
 on etcd node 1 run:
 
 ```
 etcdctl --cacert /etc/etcd/ssl/ca.crt put foo "bar"
+```
 
 onn etcd node 2 run:
 
 ```
 etcdctl --cacert /etc/etcd/ssl/ca.crt get foo
-
+```
