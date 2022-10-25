@@ -5,7 +5,7 @@ Playbook that deploys a HTTPS etcd cluster.
 
 The following commands are to be ran to check for sanity.
 
-To check cluster health run:
+To check cluster health, on a random etcd node, run:
 
 ```
 etcdctl --cacert /etc/etcd/ssl/ca.crt endpoint health --cluster
