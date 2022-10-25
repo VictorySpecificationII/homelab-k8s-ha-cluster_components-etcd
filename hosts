@@ -1,0 +1,4 @@
+[etcd]
+set1-kube-etcd-01 ansible_host=10.98.65.11  ansible_user=root
+set2-kube-etcd-01 ansible_host=10.98.65.21  ansible_user=root
+set3-kube-etcd-01 ansible_host=10.98.65.31  ansible_user=root
