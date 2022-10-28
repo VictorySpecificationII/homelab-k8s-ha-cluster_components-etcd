@@ -1,6 +1,8 @@
 # homelab-k8s-ha-cluster_components-etcd
 Playbook that deploys a HTTPS, TLS enabled etcd cluster with self-signed certificates.
 
+Developed for use with Ubuntu 22. Modify accordingly for other operating systems.
+
 # Deployment
 
  - Name your hosts in the hosts file with the same names you used in your Terraform files.
